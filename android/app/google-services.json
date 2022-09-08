@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "216415012178",
+    "firebase_url": "https://local-market-15e67.firebaseio.com",
+    "project_id": "local-market-15e67",
+    "storage_bucket": "local-market-15e67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216415012178:android:ff95321e14d2f0cec1668b",
+        "android_client_info": {
+          "package_name": "com.local__market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216415012178-k8hu4tdr3srvtkavetpvpntfkfe5cko5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.local__market",
+            "certificate_hash": "3689c5e3517b6049158935aac18185a0c5f79ef5"
+          }
+        },
+        {
+          "client_id": "216415012178-2r2ce6qok8k0i359uqs7bg3asfjf146m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO8Fye1wSlllYtEbs76_BUzDr5K2XyIdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216415012178-2r2ce6qok8k0i359uqs7bg3asfjf146m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "216415012178-n5c2vo38f95pumh15rkf44ld11dg3t6l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localmarket"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216415012178:android:2acde5e810ea71ecc1668b",
+        "android_client_info": {
+          "package_name": "com.localmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216415012178-62budmdv3rghmirj9qv0gem1lhqu4624.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.localmarket",
+            "certificate_hash": "3689c5e3517b6049158935aac18185a0c5f79ef5"
+          }
+        },
+        {
+          "client_id": "216415012178-2r2ce6qok8k0i359uqs7bg3asfjf146m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO8Fye1wSlllYtEbs76_BUzDr5K2XyIdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216415012178-2r2ce6qok8k0i359uqs7bg3asfjf146m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "216415012178-n5c2vo38f95pumh15rkf44ld11dg3t6l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localmarket"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216415012178:android:f00140103b37b238c1668b",
+        "android_client_info": {
+          "package_name": "com.mpc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216415012178-1gsop0spmo6294kf7apjj4dtdd4b8r38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mpc",
+            "certificate_hash": "d3e47c9aeac4859bc5662812590b4b00f8b8f3a7"
+          }
+        },
+        {
+          "client_id": "216415012178-23ov66sq4dsg657n892a70ru6669e9bt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mpc",
+            "certificate_hash": "a1854ab24cdfb15d1ea2e25764865c302f358bdc"
+          }
+        },
+        {
+          "client_id": "216415012178-jfi3eulvsms06qietkmm80qf3k2eb74q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mpc",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "216415012178-2r2ce6qok8k0i359uqs7bg3asfjf146m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO8Fye1wSlllYtEbs76_BUzDr5K2XyIdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216415012178-2r2ce6qok8k0i359uqs7bg3asfjf146m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "216415012178-n5c2vo38f95pumh15rkf44ld11dg3t6l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.localmarket"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

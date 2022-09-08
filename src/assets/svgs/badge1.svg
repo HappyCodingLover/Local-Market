@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="0" dy="1" />
+      <feGaussianBlur stdDeviation="1.5" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1529412 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+  </defs>
+  <g id="Group-7">
+    <g filter="url(#filter_1)">
+      <path d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30Z" id="Oval" fill="#FFFFFF" stroke="none" />
+    </g>
+    <path d="M0 7.5C0 3.35936 3.35816 0 7.5 0C11.6418 0 15 3.35936 15 7.5C15 11.6431 11.6418 15 7.5 15C3.35816 15 0 11.6431 0 7.5ZM7.50003 0.967773C11.0874 0.967773 14.0323 3.87327 14.0323 7.50003C14.0323 11.1076 11.1106 14.0323 7.50003 14.0323C3.89386 14.0323 0.967773 11.1121 0.967773 7.50003C0.967773 3.8951 3.8892 0.967773 7.50003 0.967773ZM6.53223 4.11276C6.53223 3.5783 6.9655 3.14502 7.49997 3.14502C8.03443 3.14502 8.46771 3.5783 8.46771 4.11276C8.46771 4.64723 8.03443 5.0805 7.49997 5.0805C6.9655 5.0805 6.53223 4.64723 6.53223 4.11276ZM6.41124 10.4034L6.77415 10.4034L6.77415 6.77438L6.41124 6.77438C6.21083 6.77438 6.04834 6.61189 6.04834 6.41148L6.04834 6.16954C6.04834 5.96913 6.21083 5.80664 6.41124 5.80664L7.86286 5.80664C8.06327 5.80664 8.22576 5.96913 8.22576 6.16954L8.22576 10.4034L8.58866 10.4034C8.78908 10.4034 8.95156 10.5659 8.95156 10.7663L8.95156 11.0083C8.95156 11.2087 8.78908 11.3712 8.58866 11.3712L6.41124 11.3712C6.21083 11.3712 6.04834 11.2087 6.04834 11.0083L6.04834 10.7663C6.04834 10.5659 6.21083 10.4034 6.41124 10.4034Z" transform="translate(7.5 7.5)" id="Shape" fill="#FF2D34" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

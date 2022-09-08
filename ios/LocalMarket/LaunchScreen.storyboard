@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFProText-Regular.ttf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pattern_transparent" translatesAutoresizingMaskIntoConstraints="NO" id="C54-3l-Fbt">
+                                <rect key="frame" x="-62.666666666666657" y="156" width="500.33333333333326" height="500"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="500" id="7Gp-4G-i03"/>
+                                    <constraint firstAttribute="width" secondItem="C54-3l-Fbt" secondAttribute="height" multiplier="1:1" id="haY-Ru-7wW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="etQ-ux-odz">
+                                <rect key="frame" x="145.66666666666666" y="365" width="84" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="YjA-dD-cQe"/>
+                                    <constraint firstAttribute="width" secondItem="etQ-ux-odz" secondAttribute="height" multiplier="1:0.98" id="c61-MO-2ae"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Local Market" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGF-GM-qSE">
+                                <rect key="frame" x="136" y="54" width="103" height="20"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="etQ-ux-odz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5t5-ug-pC0"/>
+                            <constraint firstItem="C54-3l-Fbt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="C2m-RQ-l0i"/>
+                            <constraint firstItem="etQ-ux-odz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ddj-je-7Zx"/>
+                            <constraint firstItem="C54-3l-Fbt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="QtX-eF-1EC"/>
+                            <constraint firstItem="pGF-GM-qSE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dBa-jt-RNQ"/>
+                            <constraint firstItem="pGF-GM-qSE" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="54" id="eFc-hK-oVY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="84" height="81"/>
+        <image name="pattern_transparent" width="414" height="500"/>
+    </resources>
+</document>

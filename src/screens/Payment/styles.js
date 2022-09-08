@@ -1,0 +1,82 @@
+import { StyleSheet, Dimensions } from 'react-native';
+import { BaseColor } from '@config';
+
+export default StyleSheet.create({
+  contain: {
+    flex: 1,
+  },
+  mainContainer: {
+    paddingTop: 10,
+    marginHorizontal: 20,
+    marginBottom: 10,
+  },
+  nextButton: {
+    marginTop: 50,
+    marginBottom: 25,
+    width: '50%',
+    height: 70,
+    borderRadius: 40,
+    alignSelf: 'center',
+  },
+  address: {
+    fontSize: 16,
+    borderRadius: 5,
+    paddingHorizontal: 15,
+    paddingVertical: 10,
+    marginVertical: 5,
+    backgroundColor: BaseColor.fieldColor,
+    width: '100%',
+    justifyContent: 'center',
+  },
+  textInput: {
+    color: BaseColor.textPrimaryColor,
+    backgroundColor: BaseColor.textInputBackgroundColor,
+    paddingHorizontal: 15,
+    paddingVertical: 10,
+    borderRadius: 5,
+    marginTop: 5,
+    marginBottom: 10,
+    fontSize: 16,
+  },
+  phoneWrapper: {
+    marginTop: 10,
+    marginBottom: 50,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 50,
+    backgroundColor: BaseColor.textInputBackgroundColor,
+    marginHorizontal: 0,
+    borderRadius: 5,
+  },
+  input: {
+    flex: 1,
+    padding: 0,
+    margin: 10,
+    color: BaseColor.textPrimaryColor,
+    fontSize: 14,
+  },
+  saveBtn: {
+    marginBottom: 30,
+    height: 44,
+    // width: Dimensions.get('window').width - 60,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 5,
+  },
+  bottomContainer: {
+    justifyContent: 'flex-end',
+    marginHorizontal: 20,
+  },
+  discountBtn: {
+    flex: 4,
+    padding: 10,
+    borderRadius: 5,
+    marginTop: 5,
+    marginLeft: 10,
+    marginBottom: 10,
+    fontSize: 16,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});

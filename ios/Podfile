@@ -1,0 +1,44 @@
+install! 'cocoapods', :disable_input_output_paths => true
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'LocalMarket' do
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  permissions_path = '../node_modules/react-native-permissions/ios'
+
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways.podspec"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse.podspec"
+  pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications.podspec"
+
+  pod 'CardIO' 
+  pod 'ASDKCore', :podspec =>  "https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKCore.podspec"
+  pod 'ASDKUI', :podspec =>  "https://raw.githubusercontent.com/TinkoffCreditSystems/tinkoff-asdk-ios/master/ASDKUI.podspec"    
+  pod 'Intercom'
+  target 'LocalMarketTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  # use_flipper!
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
+end
+
+target 'LocalMarket-tvOS' do
+  # Pods for LocalMarket-tvOS
+
+  target 'LocalMarket-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

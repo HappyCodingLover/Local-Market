@@ -1,0 +1,85 @@
+import { StyleSheet, Dimensions } from 'react-native';
+import { BaseColor } from '@config';
+
+export default StyleSheet.create({
+  contain: {
+    flex: 1,
+  },
+  mainContainer: {
+    flex: 4,
+    paddingTop: 20,
+    marginHorizontal: 20,
+  },
+  nextButton: {
+    marginTop: 50,
+    marginBottom: 25,
+    width: '50%',
+    height: 70,
+    borderRadius: 40,
+    alignSelf: 'center',
+  },
+  textInput: {
+    color: BaseColor.textPrimaryColor,
+    backgroundColor: BaseColor.textInputBackgroundColor,
+    padding: 10,
+    borderRadius: 5,
+    marginTop: 5,
+    marginBottom: 20,
+  },
+  phoneWrapper: {
+    marginTop: 10,
+    marginBottom: 50,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 50,
+    backgroundColor: BaseColor.textInputBackgroundColor,
+    marginHorizontal: 0,
+    borderRadius: 5,
+  },
+  input: {
+    flex: 1,
+    padding: 0,
+    margin: 10,
+    color: BaseColor.textPrimaryColor,
+    fontSize: 14,
+  },
+  saveBtn: {
+    // position: 'absolute',
+    // bottom: 50,
+    // alignSelf: 'center',
+    marginHorizontal: 45,
+    height: 44,
+    width: Dimensions.get('window').width * 3 / 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 5,
+  },
+  bottomContainer: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    marginHorizontal: 20,
+  },
+  addressView: { flex: 9 },
+  check: {
+    width: 22,
+    height: 22,
+    borderRadius: 22,
+    borderWidth: 1,
+    borderColor: BaseColor.redColor,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  checkBoxView: {
+    flex: 1,
+    alignItems: 'flex-end',
+    marginRight: 2,
+  },
+  addressRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 25,
+  },
+  addressList: { marginTop: 10, marginHorizontal: 20 },
+});
